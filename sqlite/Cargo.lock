@@ -270,6 +270,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "dependencies"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8c8ac75c1a8282ba6f9ffafdc98f39fc85311730153fdd15a0b0d031ccfffd05"
+
+[[package]]
 name = "difference"
 version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1068,6 +1074,7 @@ dependencies = [
  "assert_cmd",
  "clap",
  "csv",
+ "dependencies",
  "predicates 0.9.1",
  "reqwest",
  "rusqlite",
